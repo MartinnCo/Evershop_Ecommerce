@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "evershop install",
     "build": "evershop build",
-    "start": "npx evershop start",
+    "start": "node server.js",
     "migrate": "evershop migrate",
     "deploy": "gh-pages -d build"
   },
